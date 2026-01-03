@@ -52,3 +52,9 @@
         background-color:red ;
         color: rgb(255, 255, 255);
     }
+
+    @media (max-width: 1300px) {
+        .calculator-container {
+            width: 300px;
+        }
+    }
