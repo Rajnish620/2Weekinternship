@@ -31,22 +31,22 @@ SignUpButton.addEventListener("click", function () {
    
 
 
-    if (firstNameValue == "") {
+    if (firstNameValue === "") {
         FirstnameError.textContent = "Please enter your First Name.";
         FirstnameError.style.color = "red";
         
     }
-    else if (lastNameValue == "") {
+    else if (lastNameValue === "") {
         LastnameError.textContent = "Please enter your Last Name.";
         LastnameError.style.color = "red";
 
     } 
-    else if(email.value == ""){
+    else if(email.value === ""){
         emailError.textContent ="Please enter the Email.";
         emailError.style.color = "red";
 
         
-    }else if(Password.value == ""){
+    }else if(Password.value === ""){
         PassError.textContent = "Please enter the Password.";
         PassError.style.color = "red";
      }

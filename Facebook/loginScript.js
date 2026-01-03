@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //     Passwords.textContent = "";
         // }
 
-        if(emailValue == storedEmail && passwordValue == storedPassword){
+        if(emailValue === storedEmail && passwordValue === storedPassword){
             Email.value = "";
             Password.value = "";
         }
